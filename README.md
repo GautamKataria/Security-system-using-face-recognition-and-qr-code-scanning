@@ -9,7 +9,7 @@
 #### This folder stores automatically generated entry logs for each day with the information about the person and time.
 
 ##### Mysql database structure:
-![Mysql database structure](Annotation 2020-07-30 154031.png)
+![Mysql database structure](https://res.cloudinary.com/gautzz/image/upload/v1596104257/Annotation_2020-07-30_154031_oucrd7.png)
 
 The database being used is students database.
 
