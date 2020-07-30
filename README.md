@@ -9,15 +9,15 @@
 #### This folder stores automatically generated entry logs for each day with the information about the person and time.
 
 ##### Mysql database structure:
-+-----------+--------------+------+-----+---------+-------+
-| Field     | Type         | Null | Key | Default | Extra |
-+-----------+--------------+------+-----+---------+-------+
-| stud_name | varchar(255) | NO   |     | NULL    |       |
-| reg       | int          | NO   | PRI | NULL    |       |
-| marks     | int          | YES  |     | NULL    |       |
-| gender    | varchar(6)   | YES  |     | NULL    |       |
-| age       | int          | NO   |     | NULL    |       |
-+-----------+--------------+------+-----+---------+-------+
++-----------+--------------+------+-----+
+| Field     | Type         | Null | Key |
++-----------+--------------+------+-----+
+| stud_name | varchar(255) | NO   |     |
+| reg       | int          | NO   | PRI |
+| marks     | int          | YES  |     |
+| gender    | varchar(6)   | YES  |     |
+| age       | int          | NO   |     |
++-----------+--------------+------+-----+
 
 The database being used is students database.
 
