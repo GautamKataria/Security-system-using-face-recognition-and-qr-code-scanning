@@ -10,13 +10,13 @@
 
 ##### Mysql database structure:
 ### +-----------+--------------+------+-----+
-### | Field     | Type         | Null | Key |
+### | Field       | Type          | Null  | Key |
 ### +-----------+--------------+------+-----+
-### | stud_name | varchar(255) | NO   |     |
-### | reg       | int          | NO   | PRI |
-### | marks     | int          | YES  |     |
-### | gender    | varchar(6)   | YES  |     |
-### | age       | int          | NO   |     |
+### | stud_name   | varchar(255)  | NO    |     |
+### | reg         | int           | NO    | PRI |
+### | marks       | int           | YES   |     |
+### | gender      | varchar(6)    | YES   |     |
+### | age         | int           | NO    |     |
 ### +-----------+--------------+------+-----+
 
 The database being used is students database.
