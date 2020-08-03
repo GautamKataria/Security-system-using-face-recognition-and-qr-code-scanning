@@ -28,7 +28,7 @@ The code can also be easily modified to work for employee database for example o
 ##### If the face matches, It now looks for a QR code of the person.
 
 ##### The QR code contains the registration number(in this case because its unique) of the person.
-##### The program decodes the QR code and checks if the person is showing their won QR code with their face or not.
+##### The program decodes the QR code (using pyzbar library) and checks if the person is showing their won QR code with their face or not.
 ##### If they satisfy all conditions, the program displays the message --> "Access Granted, Welcome {Name of the person}"
 ##### The details of the person are collected from the database and stored in an excel file with the persons name, all their details and the time of entry.
 
